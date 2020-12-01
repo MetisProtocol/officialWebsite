@@ -1,0 +1,82 @@
+.metis_fe--learn-section-container {
+  width: 100%;
+  min-height: calc(100vh - 8rem);
+  color: #000000;
+  padding: 6rem 0 4rem 0;
+
+  .title {
+    margin-bottom: 4rem;
+    text-align: center;
+
+    h1 {
+      margin-bottom: 2.5rem;
+    }
+
+    p {
+      color: rgba(64,64,64,1);
+      font-size: 1.5rem;
+    }
+  }
+
+  .item-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    > .preview-img {
+      width: 100%;
+      position: relative;
+      height:0;
+      padding-bottom: 79%;
+      overflow: hidden;
+      border-radius: 4px;
+      overflow: hidden;
+      background-position: center center;
+      background-repeat: no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      background-size: cover;
+      margin-bottom: 1rem;
+
+      > .play-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid #01bcb1;
+        border-radius: 50%;
+        height: 4.5rem;
+        width: 4.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > img {
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+    }
+
+    > h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    > .sub-mes {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1rem;
+
+      > .date {
+        color: #404040;
+      }
+
+      > .link-btn {
+        color: #01bcb1;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

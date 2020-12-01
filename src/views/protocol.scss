@@ -1,0 +1,156 @@
+.metis_fe--protocol-section-container {
+  .title {
+    color: #ffffff;
+    line-height: 2;
+    text-align: center;
+  }
+
+  .section-one {
+    background-color: #0a0a0a;
+  }
+
+  .one-container {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    @media(min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .block {
+      width: 23rem;
+      height: 23rem;
+      border-radius: 8px 0px 0px 8px;
+      background: linear-gradient(125.43deg, #3A3A3A 0%, #222222 25%, #020202 78%);
+      color: #cccccc;
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      font-size: 1.5rem;
+      padding: 2rem;
+      line-height: 2;
+      margin: 2rem;
+    }
+  }
+
+  .section-two {
+    background: linear-gradient(105.52deg, #1E1E1E 0%, #020202 100%);
+  }
+
+  .two-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+
+    .sub-title {
+      color: #cccccc;
+      line-height: 2;
+      text-align: center;
+    }
+
+    .preview-img {
+      margin: 2rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      img {
+        margin: 2rem 0;
+        width: 80%;
+      }
+    }
+  }
+
+  .section-three {
+    background: #0A0A0A;
+  }
+
+  .three-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+
+    .preview-img {
+      margin: 2rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      img {
+        margin: 2rem 0;
+        width: 80%;
+      }
+    }
+  }
+
+  .section-four {
+    background: linear-gradient(105.52deg, #1E1E1E 0%, #020202 100%);
+  }
+
+  @media (min-width: 768px) {
+    .four-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5rem 1rem;
+
+      .title {
+        text-align: left;
+        margin-bottom: 2rem;
+      }
+
+      .description {
+        color: #cccccc;
+        text-align: left;
+      }
+
+      .info-part {
+        flex: 1;
+      }
+
+      .preview-img {
+        flex: 2;
+        margin-left: 2rem;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .four-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5rem 1rem;
+
+      .title {
+        margin-bottom: 2rem;
+      }
+
+      .description {
+        color: #cccccc;
+        text-align: center;
+      }
+
+      .info-part {
+        margin-bottom: 2rem;
+      }
+
+      .preview-img {
+        width: 80%;
+        margin-left: 2rem;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

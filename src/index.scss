@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: "Nunito Sans", "FZLanTingHeiS-R-GB", "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  color: #ffffff;
+  // overflow-y: auto;
+  // background: url('/bg.png');
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: top left;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+// ::-webkit-scrollbar {
+//   width: 6px;
+//   height: 6px;
+// }
+// ::-webkit-scrollbar-track {
+//   border-radius: 10px;
+//   background: rgba(1,1,1,1);
+// }
+// ::-webkit-scrollbar-thumb{
+//   border-radius: 10px;
+//   opacity: 0.7;
+//   background: rgba(1,1,1,.5);
+// }
+// ::-webkit-scrollbar-thumb:hover{
+//   opacity: 1;
+//   background: rgba(1,1,1,.5);
+// }
+// ::-webkit-scrollbar-thumb:active{
+//   opacity: 1;
+//   background: rgba(1,1,1,.5);
+// }
