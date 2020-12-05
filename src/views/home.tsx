@@ -19,16 +19,16 @@ export default function Home() {
         </Container>
 
         <div className="contract-list">
-          <a href="">
+          <a href="/">
             <img src="/images/media.png" alt=""/>
           </a>
-          <a href="">
+          <a href="/">
             <img src="/images/telegram.png" alt=""/>
           </a>
-          <a href="">
+          <a href="/">
             <img src="/images/github.png" alt=""/>
           </a>
-          <a href="">
+          <a href="/">
             <img src="/images/twitter.png" alt=""/>
           </a>
         </div>

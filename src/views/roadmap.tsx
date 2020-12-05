@@ -55,7 +55,7 @@ export default function Roadmap() {
         description: t('company_page.roadmap.items.Iron_age.description')
       },
     ]);
-  }, []);
+  }, [ t ]);
 
   useEffect(() => {
     if (document.body.clientWidth < 768) {

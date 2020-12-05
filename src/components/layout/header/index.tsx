@@ -4,7 +4,7 @@ import ArrowForwad from '@material-ui/icons/ArrowForward';
 export function Header (props: any){
   return <nav className="metis_fe--layout-header">
     <div className="metis_fe--header-logo">
-      <img src="/images/logo.png"/>
+      <img src="/images/logo.png" alt=""/>
       <h4>METIS</h4>
     </div>
     <ul className="metis_fe--header-item-group">

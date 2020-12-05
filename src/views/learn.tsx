@@ -69,7 +69,7 @@ export default function Learn() {
         link: ''
       },
     ]);
-  }, []);
+  }, [ t ]);
 
   return (
     <section className="metis_fe--learn-section-container">
