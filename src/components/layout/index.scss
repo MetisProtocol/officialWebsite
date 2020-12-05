@@ -21,6 +21,7 @@
       justify-content: space-between;
       color: #efefef;
       z-index: 99;
+      font-weight: bold;
   
       > .metis_fe--header-logo {
         display: flex;
@@ -149,7 +150,6 @@
     padding-top: 4rem;
     height: 100vh;
     width: 100%;
-    overflow-y: auto;
     position: relative;
     background-image: url('/images/learn_bg.png');
 
