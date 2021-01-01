@@ -84,7 +84,7 @@ export default function Company() {
                       <div className="position">{partner.position}</div>
                       <p className="intro">{partner.intro}</p>
 
-                      <a href={partner.link}>
+                      <a href={partner.link} target="__blank">
                         <img src="/images/linkin.png" alt="" />
                       </a>
                     </div>
@@ -105,7 +105,7 @@ export default function Company() {
                       <div className="position">{partner.position}</div>
                       <p className="intro">{partner.intro}</p>
 
-                      <a href={partner.link}>
+                      <a href={partner.link} target="__blank">
                         <img src="/images/linkin.png" alt="" />
                       </a>
                     </div>
@@ -127,7 +127,7 @@ export default function Company() {
                     <div className="position">{partner.position}</div>
                     <p className="intro">{partner.intro}</p>
 
-                    <a href={partner.link}>
+                    <a href={partner.link} target="__blank">
                       <img src="/images/linkin.png" alt="" />
                     </a>
                   </div>
@@ -146,7 +146,7 @@ export default function Company() {
                     <div className="position">{partner.position}</div>
                     <p className="intro">{partner.intro}</p>
 
-                    <a href={partner.link}>
+                    <a href={partner.link} target="__blank">
                       <img src="/images/linkin.png" alt="" />
                     </a>
                   </div>

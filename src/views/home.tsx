@@ -29,16 +29,16 @@ export default function Home() {
         </Container>
 
         <div className="contract-list">
-          <a href="https://metisdao.medium.com">
+          <a href="https://metisdao.medium.com" target="__blank">
             <img src="/images/media.png" alt=""/>
           </a>
-          <a href="https://t.me/MetisDAO">
+          <a href="https://t.me/MetisDAO" target="__blank">
             <img src="/images/telegram.png" alt=""/>
           </a>
-          <a href="https://github.com/MetisProtocol/metis">
+          <a href="https://github.com/MetisProtocol/metis" target="__blank">
             <img src="/images/github.png" alt=""/>
           </a>
-          <a href="https://twitter.com/MetisDAO">
+          <a href="https://twitter.com/MetisDAO" target="__blank">
             <img src="/images/twitter.png" alt=""/>
           </a>
         </div>
