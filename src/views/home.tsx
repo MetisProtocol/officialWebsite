@@ -1,10 +1,10 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 import Container from '@material-ui/core/Container';
 import './home.scss';
 
 export default function Home() {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   return (
     <div className="metis_fe--home-section-container">
