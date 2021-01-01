@@ -1,13 +1,12 @@
 {
   "header": {
     "home": "HOME",
-    "protocol": "PROTOCOL",
+    "metis_way": "METIS WAY",
     "learn": "LEARN",
     "company": "COMPANY"
   },
   "home_page": {
-    "title1": "This is the Way, the Metis Way",
-    "title2": "Metis Runs Decentralized Companies",
+    "title1": "<h1>Metis<br/>Runs<br/>Decentralized Companies</h1>",
     "section_two": {
       "title": "Decentralized Economy Needs Management DAO"
     },

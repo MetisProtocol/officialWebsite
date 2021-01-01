@@ -11,7 +11,7 @@ import {
 import { useTranslation } from "react-i18next";
 import { Layout, Header, HeaderItem, Content } from "./components/layout";
 import Home from "./views/home";
-import Protocol from "./views/protocol";
+import MetisWay from "./views/metis_way";
 import Learn from "./views/learn";
 import Company from "./views/company";
 
@@ -39,7 +39,7 @@ export default function App() {
             </HeaderItem>
 
             <HeaderItem>
-              <NavLink to="/protocol">{t("header.protocol")}</NavLink>
+              <NavLink to="/metis_way">{t("header.metis_way")}</NavLink>
             </HeaderItem>
 
             <HeaderItem>
@@ -57,8 +57,8 @@ export default function App() {
                 <Home />
               </Route>
 
-              <Route path="/protocol">
-                <Protocol />
+              <Route path="/metis_way">
+                <MetisWay />
               </Route>
 
               <Route path="/learn">

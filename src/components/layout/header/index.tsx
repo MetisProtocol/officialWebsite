@@ -11,7 +11,7 @@ export function Header (props: any){
       {props.children}
     </ul>
 
-    <a className="whitepaper-link" href="/wihtepaper.pdf">
+    <a className="whitepaper-link" href="/files/metis_whitepaper.pdf">
       WHITEPAPER
       <ArrowForwad />
     </a>

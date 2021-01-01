@@ -31,42 +31,42 @@ export default function Learn() {
         title: t('learn_page.article01_title'),
         date: new Date('2020-09-08'),
         type: ItemType.ARTICLE,
-        link: ''
+        link: 'https://metisdao.medium.com/brief-answers-to-the-big-questions-on-metisdao-hacker-noon-3109add7bd11'
       },
       {
         previewImg: '/images/article_02.png',
         title: t('learn_page.article02_title'),
         date: new Date('2020-09-13'),
         type: ItemType.ARTICLE,
-        link: ''
+        link: 'https://metisdao.medium.com/turn-an-internet-community-into-a-dao-in-3-steps-hacker-noon-924a80037517'
       },
       {
         previewImg: '/images/article_03.png',
         title: t('learn_page.article03_title'),
         date: new Date('2020-09-28'),
         type: ItemType.ARTICLE,
-        link: ''
+        link: 'https://metisdao.medium.com/a-technical-exploration-of-optimistic-rollups-in-the-context-of-collaboration-a02bfcdc9ebc'
       },
       {
         previewImg: '/images/video_01.png',
         title: t('learn_page.video01_title'),
         date: new Date('2020-09-08'),
         type: ItemType.VIDEO,
-        link: ''
+        link: 'https://youtu.be/C01Cmncvxrs'
       },
       {
         previewImg: '/images/video_02.png',
         title: t('learn_page.video02_title'),
         date: new Date('2020-09-08'),
         type: ItemType.VIDEO,
-        link: ''
+        link: 'https://youtu.be/_Q_xHFtO_ik'
       },
       {
         previewImg: '/images/video_03.png',
         title: t('learn_page.video03_title'),
         date: new Date('2020-09-08'),
         type: ItemType.VIDEO,
-        link: ''
+        link: 'https://youtu.be/Fpb__xnbtnU'
       },
     ]);
   }, [ t ]);

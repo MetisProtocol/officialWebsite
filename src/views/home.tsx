@@ -10,25 +10,35 @@ export default function Home() {
     <div className="metis_fe--home-section-container">
       <div className="section-one">
         <Container className="one-container" maxWidth="lg">
-          <h1>
-            {t('home_page.title1')}
-          </h1>
-          <h1>
-            {t('home_page.title2')}
+          
+          {/* <div dangerouslySetInnerHTML={{ __html:  t('home_page.title1')}} /> */}
+
+          <h1 className="title">
+            <span className="text-strong">
+            Metis
+            </span>
+            <br/>
+            <span className="text-strong">
+            Runs
+            </span>
+            <br/>
+            <span className="text-strong">
+            Decentralized Companies
+            </span>
           </h1>
         </Container>
 
         <div className="contract-list">
-          <a href="/">
+          <a href="https://metisdao.medium.com">
             <img src="/images/media.png" alt=""/>
           </a>
-          <a href="/">
+          <a href="https://t.me/MetisDAO">
             <img src="/images/telegram.png" alt=""/>
           </a>
-          <a href="/">
+          <a href="https://github.com/MetisProtocol/metis">
             <img src="/images/github.png" alt=""/>
           </a>
-          <a href="/">
+          <a href="https://twitter.com/MetisDAO">
             <img src="/images/twitter.png" alt=""/>
           </a>
         </div>
@@ -37,11 +47,31 @@ export default function Home() {
       <div className="section-two">
         <Container className="two-container" maxWidth="lg">
           <h2 className="title">
-            { t('home_page.section_two.title') }
+            Launch a Decentralized Company in
+            <span className="text-strong"> 3 Steps </span>
           </h2>
 
-          <div className="preview-img">
-            <img src="/images/home_section2.png" alt=""/>
+          <div className="step-list">
+            <div className="step">
+              <h4 className="step-title">
+                1.Create
+              </h4>
+              <img style={{width: 330}} className="step-img" src="/images/home_step1.svg" alt=""/>
+            </div>
+
+            <div className="step">
+              <h4 className="step-title">
+                2.Stake to Activate
+              </h4>
+              <img style={{width: 280}} className="step-img" src="/images/home_step2.svg" alt=""/>
+            </div>
+
+            <div className="step">
+              <h4 className="step-title">
+                3.And All Set!
+              </h4>
+              <img style={{width: 634}} className="step-img" src="/images/home_step3.svg" alt=""/>
+            </div>
           </div>
         </Container>
       </div>
@@ -49,27 +79,58 @@ export default function Home() {
       <div className="section-three">
         <Container className="three-container" maxWidth="lg">
           <h2 className="title">
-            { t('home_page.section_three.title') }
+            Manage All the Community 
+            <span className="text-strong"> Collaborations </span>
           </h2>
 
-          <p className="description">
-            { t('home_page.section_three.description') }
-          </p>
+          <div className="group">
+            <h4 className="group-title">
+              Incentivized Tasks
+            </h4>
 
-          <div className="preview-img">
-            <img src="/images/home_section3.png" alt=""/>
+            <img src="/images/home_section3_1.svg" alt=""/>
           </div>
 
-          <h2 className="title another-part">
-            { t('home_page.section_four.title') }
-          </h2>
+          <div className="group">
+            <h4 className="group-title">
+              Community-Maintained Knowledge Base
+            </h4>
 
-          <p className="description">
-            { t('home_page.section_four.description') }
-          </p>
+            <img src="/images/home_section3_2.svg" alt=""/>
+          </div>
 
-          <div className="preview-img">
-            <img src="/images/home_section4.png" alt=""/>
+          <div className="item-list">
+            <div className="item-group">
+              <div className="item-group-title">
+              Liquidity Pool
+              </div>
+              <img src="/images/home_section3_process.svg" alt=""/>
+            </div>
+
+            <div className="item-group">
+              <div className="item-group-title">
+              Chatroom
+              </div>
+              <img src="/images/home_section3_chat.svg" alt=""/>
+            </div>
+
+            <div className="item-group">
+              <div className="item-group-title">
+              Accounting
+              </div>
+              <img src="/images/home_section3_account.svg" alt=""/>
+            </div>
+
+            <div className="item-group">
+              <div className="item-group-title">
+              Arbitration
+              </div>
+              <img src="/images/home_section3_handshake.svg" alt=""/>
+            </div>
+          </div>
+
+          <div className="plus">
+            <p>more to come ...</p>
           </div>
         </Container>
       </div>
@@ -78,35 +139,124 @@ export default function Home() {
         <Container className="five-container" maxWidth="lg">
           <div className="block-list">
             <div className="block">
-              <img src="/images/fi_trending-up.png" alt=""/>
+              <img src="/images/fi_trending-up.svg" alt=""/>
 
               <span className="name" style={{color: '#CEA7FF'}}>
-                {t('home_page.section_five.one_name')}
+                Easy-to-use framework
               </span>
             </div>
 
             <div className="block">
-              <img src="/images/fi_zap.png" alt=""/>
+              <img src="/images/fi_zap.svg" alt=""/>
 
               <span className="name" style={{color: '#81E8FF'}}>
-                {t('home_page.section_five.two_name')}
+                Cater to the UX of internet applications
               </span>
             </div>
           </div>
           <div className="block-list">
             <div className="block">
-              <img src="/images/price_down.png" alt=""/>
+              <img src="/images/price_down.svg" alt=""/>
 
               <span className="name" style={{color: '#8591FF'}}>
-                {t('home_page.section_five.three_name')}
+                High Scalability
               </span>
             </div>
 
             <div className="block">
-              <img src="/images/fi_shield.png" alt=""/>
+              <img src="/images/fi_shield.svg" alt=""/>
 
               <span className="name" style={{color: '#88FFBF'}}>
-                {t('home_page.section_five.four_name')}
+                Low Operation Cost
+              </span>
+            </div>
+          </div>
+        </Container>
+      </div>
+
+      <div className="section-six">
+        <Container className="six-container" maxWidth="lg">
+          <h2 className="title">
+            Use cases
+          </h2>
+
+          <div className="block-list">
+            <div className="block">
+              <div className="block-title">
+              Defi 2.0
+              </div>
+              <div className="block-content">
+              Not just yield farming, a new way to grow the community and integrate with real-world business
+              </div>
+            </div>
+
+            <div className="block">
+              <div className="block-title">
+              Gig Economy
+              </div>
+              <div className="block-content">
+              A decentralized and trustworthy platform for global gig workers
+              </div>
+            </div>
+
+            <div className="block">
+              <div className="block-title">
+              Developers Community
+              </div>
+              <div className="block-content">
+              Your Work, 
+              <br/>
+              your Contribution, 
+              <br/>
+              your Reputation Power
+              </div>
+            </div>
+          </div>
+
+          <div className="items-list">
+            <div className="item">
+              <img className="item-icon" src="/images/home_section6_union.svg" alt=""/>
+
+              <span className="item-name">
+                DApps
+              </span>
+            </div>
+
+            <div className="item">
+              <img className="item-icon" src="/images/home_section6_vector.svg" alt=""/>
+
+              <span className="item-name">
+                Open Source
+                <br/>
+                Projects
+              </span>
+            </div>
+
+            <div className="item">
+              <img className="item-icon" src="/images/home_section6_users.svg" alt=""/>
+
+              <span className="item-name">
+                Community
+                <br/>
+                Economy
+              </span>
+            </div>
+
+            <div className="item">
+              <img className="item-icon" src="/images/home_section6_share.svg" alt=""/>
+
+              <span className="item-name">
+                Sharing
+                <br/>
+                Economy
+              </span>
+            </div>
+
+            <div className="item">
+              <img className="item-icon" src="/images/home_section6_heart.svg" alt=""/>
+
+              <span className="item-name">
+                Volunteers
               </span>
             </div>
           </div>
