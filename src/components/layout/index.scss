@@ -1,0 +1,187 @@
+@import '../style_tool/index.scss';
+
+.metis_fe--layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  @media (min-width: 768px) {
+    .metis_fe--layout-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3.3rem;
+      background-image: linear-gradient(105.52deg, #1E1E1E 0%, #020202 100%);
+      padding: 0 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #efefef;
+      z-index: 99;
+      font-weight: bold;
+  
+      > .metis_fe--header-logo {
+        display: flex;
+        align-items: center;
+  
+        > img {
+          height: 2rem;
+          width: auto;
+          margin-right: 1rem;
+        }
+      }
+  
+      > .metis_fe--header-item-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+  
+        > .metis_fe--header-item {
+          display: block;
+          margin: 0 1rem;
+          
+          > a {
+            color: #efefef;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 1rem;
+            position: relative;
+          }
+  
+          > a.active {
+            &:after {
+              content: "";
+              position: absolute;
+              bottom: -1px;
+              left: 0;
+              width: 100%;
+              height: 4px;
+              background-color: #01bCb1;
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+  
+      > .whitepaper-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #01bCb1;
+        font-size: 14px;
+        font-weight: bold;
+
+        > svg {
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    .metis_fe--layout-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 10rem;
+      background-image: linear-gradient(105.52deg, #1E1E1E 0%, #020202 100%);
+      padding: 4px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      color: #efefef;
+      z-index: 99;
+  
+      > .metis_fe--header-logo {
+        display: flex;
+        align-items: center;
+  
+        > img {
+          height: 2rem;
+          width: auto;
+          margin-right: 1rem;
+        }
+      }
+  
+      > .metis_fe--header-item-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+  
+        > .metis_fe--header-item {
+          display: block;
+          margin: 0 1rem;
+          
+          > a {
+            color: #efefef;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 4px 0;
+            position: relative;
+          }
+  
+          > a.active {
+            &:after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              height: 2px;
+              background-color: #01bCb1;
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+  
+      > .whitepaper-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #01bCb1;
+      }
+    }
+  }
+
+  .metis_fe--layout-content {
+    padding-top: 3.3rem;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url('/images/learn_bg.png');
+
+    @media (max-width: 768px) {
+      padding-top: 10rem;
+    }
+  }
+
+  .metis_fe--layout-content-container {
+    width: 100%;
+    min-height: calc(100vh - 8rem);
+  }
+
+  .metis_fe--layout-footer {
+    height: 4rem;
+    font-size: 1rem;
+    line-height: 3;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: rgba(20,20,20,1);
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+}

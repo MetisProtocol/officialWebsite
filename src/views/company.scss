@@ -1,0 +1,204 @@
+.metis_fe--company-container {
+  width: 100%;
+  height: 100%;
+
+  h2 {
+    color: #ffffff;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  > .overview-container {
+    width: 100%;
+    height: calc(100vh - 3.3rem);
+    background: url('/images/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    > .group {
+      display: flex;
+      // flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+
+      img {
+        width: 20%;
+        margin-right: 6rem;
+      }
+
+      .description {
+        font-size: 2.25rem;
+        color: #ffffff;
+        line-height: 1.5;
+        font-weight: bold;
+        // text-align: center;
+
+        .text-strong {
+          font-size: 2.5rem;
+          position: relative;
+          color: #88FFBF;
+          background-image: linear-gradient(45deg, #12A9AF 0%, #63E3DD 33%, #88FFBF 66%, #CEA7FF 100%);
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+  }
+
+  > .team-container {
+    background-color: #141414;
+    padding: 6.5rem 0;
+
+    .team-group {
+      display: flex;
+      justify-content: center;
+
+      @media (max-width: 767px) {
+        display: none;
+      }
+
+      > .left-col,
+      > .right-col {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+
+      > .left-col {
+        text-align: right;
+        margin-right: 1rem;
+
+        .partner-box {
+          justify-content: flex-end;
+        }
+
+        .info {
+          margin-right: 1rem;
+          align-items: flex-end;
+        }
+      }
+
+      > .right-col {
+        text-align: left;
+        margin-left: 1rem;
+        padding-top: 8rem;
+
+        .info {
+          margin-left: 1rem;
+          align-items: flex-start;
+        }
+      }
+    }
+
+    .partner-box {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 4rem;
+
+      > .avatar {
+        height: 16rem;
+        width: auto;
+        border-radius: 4px;
+
+        > img {
+          height: 100%;
+          width: auto;
+        }
+
+        > img.active-avatar {
+          display: none;
+        }
+
+        &:hover {
+          > img.active-avatar {
+            display: block;
+          }
+
+          > img.inactive-avatar {
+            display: none;
+          }
+        }
+      }
+
+      > .info {
+        display: flex;
+        flex-direction: column;
+
+        > .name {
+          font-size: 2rem;
+          margin-bottom: 0.5rem;
+        }
+
+        > .position {
+          font-size: 1.25rem;
+          color: rgba(129,232,255,0.5);
+          margin-bottom: 0.5rem;
+          font-weight: 200;
+        }
+
+        > .intro {
+          line-height: 2;
+          font-size: 1rem;
+          color: rgba(204,204,204,1);
+          margin-bottom: 1rem;
+          font-weight: 200;
+        }
+
+        > a > img {
+          height: 1rem;
+          width: auto;
+        }
+      }
+    }
+
+    .team-group-phone {
+      display: flex;
+      flex-direction: column;
+
+      .partner-box {
+        align-items: flex-start;
+      }
+
+      .avatar {
+        margin-right: 2rem;
+      }
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+
+    .team-group.think-tank-group {
+      .right-col {
+        padding-top: 0;
+      }
+
+      .partner-box {
+        flex-direction: column;
+        align-items: center;
+
+        .avatar {
+          margin-bottom: 2rem;
+        }
+
+        .info {
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  > .roadmap-container {
+    width: 100%;
+    background-color: #0a0a0a;
+    min-height: 100vh;
+    padding: 6.5rem 0;
+
+    h2 {
+      margin-bottom: 4rem;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "header": {
+    "home": "HOME",
+    "metis_way": "METIS WAY",
+    "learn": "LEARN",
+    "company": "COMPANY"
+  },
+  "home_page": {
+    "title1": "<h1>Metis<br/>Runs<br/>Decentralized Companies</h1>",
+    "section_two": {
+      "title": "Decentralized Economy Needs Management DAO"
+    },
+    "section_three": {
+      "title": "Metis Protocol",
+      "description": "Optimistic Rollup Based Layer 2 Protocol to Change the Mission of DAO from Governance (Voting) to Collaboration Management Framework"
+    },
+    "section_four": {
+      "title": "Backbone Defi 2.0",
+      "description": "Connect Defi LEGO with real-world economic activities to support new Defi products innovation with community members' engagement"
+    },
+    "section_five": {
+      "one_name": "Full Function Protocol",
+      "two_name": "High Performance & Scalability",
+      "three_name": "Low Gas cost",
+      "four_name": "High Privacy"
+    }
+  },
+  "learn_page": {
+    "title": "Learn",
+    "description": "Explore our blog posts and videos",
+    "read": "READ",
+    "watch": "WATCH",
+    "article01_title": "Brief Answers to the Big Questions on MetisDAO",
+    "article02_title": "Turn an Internet Community into a DAO in 3 Steps",
+    "article03_title": "A Technical Exploration of Optimistic Rollups in the context of Collaborat...",
+    "video01_title": "Metis Protocol POC Demo",
+    "video02_title": "Optimistic Rollup Meetup. Part 1",
+    "video03_title": "DAO, Governance & the Future of Defi"
+  },
+  "company_page": {
+    "description": "In Greek mythology, Metis was the Titan of prudence, good council, planning, advice, deep thought, craftiness and wisdom.",
+    "team": {
+      "title": "Team",
+      "elena": {
+        "position": "Co-Founder & CEO",
+        "intro": "Blockchain educator, Co-Founder of CryptoChicks, the world largest female blockchain community with members spanning over 56 countries."
+      },
+      "yuan": {
+        "position": "Co-Founder & CEO",
+        "intro": "Veteran Ethereum developer. Involved in the framework design of the IBM Hyperledger project. OR expert."
+      },
+      "kevin": {
+        "position": "Co-Founder & Product Lead",
+        "intro": "Former global business leader of a tier-1 public blockchain. Researcher and practitioner of the Token Economy, DAO and the governance protocols. A serail startup entrepreneur. "
+      }
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "items": {
+        "stone_age": {
+          "title": "Stone Age",
+          "description": "Building up the cornerstone for Metis Protocol with the Genesis version of White Paper, Purple Paper, Meta Staking Contract, the POC ComCo Management Framework, and Initial Funding."
+        },
+        "bronze_age": {
+          "title": "Bronze Age",
+          "description": "Project cold launch<br/><br/>Public test net launch<br/><br/>Founding members join and use Metis Protocol to stake, govern and manage for their projects manually to mint M Token incentives<br/><br/>API connection with Defi projects and joint promotion with Defi communities<br/><br/>Launch POC version using Layer 2 of OR"
+        },
+        "Iron_age": {
+          "title": "Iron Age",
+          "description": "Main net launch with Layer 2 solution<br/>Support DACs to issue their own tokens <br/>DApps/Community onboard program<br/>Microservice tools community development program<br/>"
+        },
+        "Discovery_age": {
+          "title": "Discovery Age",
+          "description": "Enroll more DApps/Community onboard<br/><br/>Integrate open source microservice tools and launch Data Assets Market<br/><br/>Buildup DAC ecosystem"
+        }
+      }
+    }
+  },
+  "protocol_page": {
+    "section_one": {
+      "one_part": "A trusted and protected environment to create a decentralized company on the blockchain",
+      "two_part": "Tools / Mechanism / APIs / Incentives to run the communities and decentralized companies"
+    },
+    "section_two": {
+      "title": "Optimistic Governance",
+      "subtitle": "The best governance is NO governance at all"
+    },
+    "section_three": {
+      "title": "ComCo Framework on Layer 2"
+    },
+    "section_four": {
+      "title": "The Social Contract - Reputation Power (RP)",
+      "description": "Decentralized business credentials built on staking and collaborations track record"
+    }
+  }
+}

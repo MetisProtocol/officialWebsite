@@ -1,0 +1,108 @@
+.metis_fe--learn-section-container {
+  width: 100%;
+  color: #000000;
+  padding: 6.5rem 0;
+
+  .title {
+    margin-bottom: 4rem;
+    text-align: center;
+    line-height: 1.2;
+
+    h1 {
+      margin-bottom: 2.5rem;
+    }
+
+    p {
+      color: rgba(64,64,64,1);
+      font-size: 1.5rem;
+      line-height: 1.6;
+      font-weight: lighter;
+    }
+  }
+
+  .item-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    > .preview-img {
+      width: 100%;
+      position: relative;
+      height:0;
+      padding-bottom: 79%;
+      overflow: hidden;
+      border-radius: 4px;
+      overflow: hidden;
+      background-position: center center;
+      background-repeat: no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      background-size: cover;
+      margin-bottom: 1rem;
+
+      > .play-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 4.5rem;
+        width: 4.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+
+        > img {
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+
+      > .preview-img-active {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        background-size: cover;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+      &:hover > .preview-img-active {
+        z-index: 2;
+      }
+    }
+
+    > h4 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    > .sub-mes {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1rem;
+
+      > .date {
+        color: rgba(64,64,64,1);
+        font-weight: lighter;
+      }
+
+      > .link-btn {
+        color: #01bcb1;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+
+        > .MuiSvgIcon-root {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
