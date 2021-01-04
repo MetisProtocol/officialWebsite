@@ -97,7 +97,7 @@ export default function Learn() {
                         <></>
                       }
                     </div>
-                    <h3>{item.title}</h3>
+                    <h4>{item.title}</h4>
                     <div className="sub-mes">
                       <span className="date">
                         {moment(item.date).format('MMMM Do YYYY')}

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import ArrowForward from '@material-ui/icons/ArrowForwardIos';
-import ArrowBack from '@material-ui/icons/ArrowBackIos';
 import { v4 as uuid } from 'uuid';
 import './roadmap.scss';
 
@@ -39,21 +37,27 @@ export default function Roadmap() {
       {
         title: t('company_page.roadmap.items.stone_age.title'),
         date: 'Dec 2018 - Oct 2020',
-        icon: '/images/stone_age.png',
+        icon: '/images/stone_age.svg',
         description: t('company_page.roadmap.items.stone_age.description')
       },
       {
         title: t('company_page.roadmap.items.bronze_age.title'),
         date: 'Oct 2020 - Dec 2020',
-        icon: '/images/bronze_age.png',
+        icon: '/images/bronze_age.svg',
         description: t('company_page.roadmap.items.bronze_age.description')
       },
       {
         title: t('company_page.roadmap.items.Iron_age.title'),
         date: 'Jan 2021 - Apr 2021',
-        icon: '/images/iron_age.png',
+        icon: '/images/iron_age.svg',
         description: t('company_page.roadmap.items.Iron_age.description')
       },
+      {
+        title: t('company_page.roadmap.items.Discovery_age.title'),
+        date: 'Starting from May 2021',
+        icon: '/images/telescope.svg',
+        description: ""
+      }
     ]);
   }, [ t ]);
 
@@ -81,8 +85,18 @@ export default function Roadmap() {
 
   return (
     <div className="roadmap-page-container">
-      <ArrowForward className={`page-next ${nextDisabled ? 'disabled' : ''}`} onClick={handlePageNext}/>
-      <ArrowBack className={`page-prev ${prevDisabled ? 'disabled' : ''}`} onClick={handlePagePrev} />
+      <span className={`page-prev ${prevDisabled ? 'disabled' : ''}`} onClick={handlePagePrev}>
+
+        <svg width="17" height="30" viewBox="0 0 17 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="1" d="M15 2L2 14.8842L15 28" stroke="#81E8FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+
+      <span className={`page-next ${nextDisabled ? 'disabled' : ''}`} onClick={handlePageNext}>
+        <svg width="17" height="30" viewBox="0 0 17 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="1" d="M2 2L15 14.8842L2 28" stroke="#81E8FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
 
       <div className="items-list" style={{transform: `translateX(${- pageStep * currentPage}%)`}}>
         {
@@ -94,7 +108,7 @@ export default function Roadmap() {
                   index !== 0 && <div className="split-line"></div>
                 }
                 <div className="item-icon">
-                  <img className="item-icon" src={item.icon} alt=""/>
+                  <img src={item.icon} alt=""/>
                 </div>
 
                 <span className="item-title">

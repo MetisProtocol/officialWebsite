@@ -2,7 +2,7 @@
   width: 100%;
 
   .title {
-    line-height: 2;
+    line-height: 1.2;
     color: #ffffff;
     padding: 0 4rem;
 
@@ -34,7 +34,7 @@
 
   .section-one {
     background: url('/images/bg.png');
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 3.3rem);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,6 +51,10 @@
         line-height: 2;
         margin: 2rem 0;
       }
+
+      .title {
+        font-size: 4rem;
+      }
     }
 
     .contract-list {
@@ -62,10 +66,10 @@
       transform: translateY(-50%);
 
       > a {
-        margin: 1.5rem 0;
+        margin: 1rem 0;
 
         img {
-          height: 1rem;
+          height: 3rem;
         }
       }
     }
@@ -75,12 +79,13 @@
     background: #ffffff;
 
     .two-container {
-      padding: 4rem 2rem;
+      padding: 6.5rem 2rem;
   
       .title {
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
         color: #000000;
         padding-left: 46px;
+        line-height: 1.2;
 
         .text-strong {
           position: relative;
@@ -103,6 +108,8 @@
         .step-title {
           color: #000000;
           padding-left: 30px;
+          font-size: 1.5rem;
+          margin-bottom: 2rem;
         }
       }
     }
@@ -113,12 +120,12 @@
     background: linear-gradient(105.52deg, #1E1E1E 0%, #020202 100%);
 
     .three-container {
-      padding: 4rem 2rem;
+      padding: 6.5rem 2rem;
     }
 
     .title {
-      line-height: 2;
-      margin-bottom: 2rem;
+      line-height: 1.2;
+      margin-bottom: 4rem;
       text-align: center;
 
       .text-strong {
@@ -143,8 +150,8 @@
 
     .group-title {
       text-align: center;
-      font-size: 1rem;
-      margin-bottom: 2.25rem;
+      font-size: 1.5rem;
+      margin-bottom: 2.5rem;
     }
 
     .item-list {
@@ -167,19 +174,18 @@
         }  
 
         img {
-          width: 4rem;
+          width: 4.25rem;
         }
       }
 
       .item-group-title {
         font-size: 1.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2.5rem;
       }
     }
 
     .plus {
-      margin-top: 4rem;
-      margin-bottom: 2rem;
+      margin-top: 7.25rem;
       
       p {
         font-size: 1.25rem;
@@ -223,6 +229,7 @@
           height: 18rem;
           width: 26rem;
           font-weight: bold;
+          font-size: 1.25rem;
   
           img {
             height: 6rem;
@@ -250,11 +257,12 @@
           height: 12rem;
           width: 16.75rem;
           font-weight: bold;
+          font-size: 1.25rem;
   
           img {
             height: 3rem;
             width: auto;
-            margin-bottom: 3rem;
+            margin-bottom: 2.5rem;
           }
         }
       }
@@ -263,22 +271,22 @@
 
   .section-six {
     background: rgba(10,10,10,1);
-    padding: 4rem;
+    
+    .six-container {
+      padding: 6rem 0 8rem 0;
+    }
 
     .title {
       text-align: center;
+      line-height: 1.2;
     }
 
     .block-list {
-      padding: 4rem;
+      margin-top: 4rem;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
-      
-      @media(min-width: 768px) {
-        flex-direction: row;
-      }
   
       .block {
         width: 25rem;
@@ -290,11 +298,12 @@
         flex-direction: column;
         align-items: center;
         font-size: 1.5rem;
-        padding: 4rem 0.5rem 0 0.5rem;
+        padding: 5.5rem 1rem;
         line-height: 2;
 
         .block-title {
           font-size: 2rem;
+          line-height: 1.5;
           margin-bottom: 2.5rem;
           text-align: center;
           position: relative;
@@ -306,7 +315,18 @@
 
         .block-content {
           font-size: 1.25rem;
-          padding: 0 1rem;
+          padding: 0 3rem;
+          line-height: 1.6;
+          text-align: center;
+        }
+      }
+
+      @media(max-width: 767px) {
+        flex-direction: column;
+
+        .block {
+          border-radius: 8px;
+          margin: 2rem 0;
         }
       }
     }
@@ -316,13 +336,15 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      margin-top: 0.5rem;
 
       .item {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 9rem;
-        margin: 3rem;
+        height: 14.18rem;
+        width: 14.18rem;
+        padding-top: 4.25rem;
 
         > .item-icon {
           width: 2.5rem;

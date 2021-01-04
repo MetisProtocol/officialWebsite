@@ -1,12 +1,12 @@
 .metis_fe--learn-section-container {
   width: 100%;
-  min-height: calc(100vh - 8rem);
   color: #000000;
-  padding: 6rem 0 4rem 0;
+  padding: 6.5rem 0;
 
   .title {
     margin-bottom: 4rem;
     text-align: center;
+    line-height: 1.2;
 
     h1 {
       margin-bottom: 2.5rem;
@@ -15,6 +15,8 @@
     p {
       color: rgba(64,64,64,1);
       font-size: 1.5rem;
+      line-height: 1.6;
+      font-weight: lighter;
     }
   }
 
@@ -58,7 +60,8 @@
       }
     }
 
-    > h3 {
+    > h4 {
+      font-size: 1.25rem;
       margin-bottom: 0.5rem;
     }
 
@@ -69,13 +72,19 @@
       font-size: 1rem;
 
       > .date {
-        color: #404040;
+        color: rgba(64,64,64,1);
+        font-weight: lighter;
       }
 
       > .link-btn {
         color: #01bcb1;
         display: flex;
         align-items: center;
+        font-weight: bold;
+
+        > .MuiSvgIcon-root {
+          font-size: 1rem;
+        }
       }
     }
   }

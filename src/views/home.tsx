@@ -15,11 +15,7 @@ export default function Home() {
 
           <h1 className="title">
             <span className="text-strong">
-            Metis
-            </span>
-            <br/>
-            <span className="text-strong">
-            Runs
+            Metis Runs
             </span>
             <br/>
             <span className="text-strong">
@@ -30,16 +26,16 @@ export default function Home() {
 
         <div className="contract-list">
           <a href="https://metisdao.medium.com" target="__blank">
-            <img src="/images/media.png" alt=""/>
+            <img src="/images/medium.svg" alt=""/>
           </a>
           <a href="https://t.me/MetisDAO" target="__blank">
-            <img src="/images/telegram.png" alt=""/>
+            <img src="/images/telegram.svg" alt=""/>
           </a>
           <a href="https://github.com/MetisProtocol/metis" target="__blank">
-            <img src="/images/github.png" alt=""/>
+            <img src="/images/github.svg" alt=""/>
           </a>
           <a href="https://twitter.com/MetisDAO" target="__blank">
-            <img src="/images/twitter.png" alt=""/>
+            <img src="/images/twitter.svg" alt=""/>
           </a>
         </div>
       </div>

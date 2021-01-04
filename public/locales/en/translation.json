@@ -63,11 +63,14 @@
         },
         "bronze_age": {
           "title": "Bronze Age",
-          "description": "Project cold launch<br/>Public test net launch<br/>Founding members join and use Metis Protocol to stake, govern and manage for their projects manually to mint M Token incentives<br/>API connection with Defi projects and joint promotion with Defi communities<br/>Launch POC version using Layer 2 of OR"
+          "description": "Project cold launch<br/><br/>Public test net launch<br/><br/>Founding members join and use Metis Protocol to stake, govern and manage for their projects manually to mint M Token incentives<br/><br/>API connection with Defi projects and joint promotion with Defi communities<br/><br/>Launch POC version using Layer 2 of OR"
         },
         "Iron_age": {
           "title": "Iron Age",
           "description": "Main net launch with Layer 2 solution<br/>Support DACs to issue their own tokens <br/>DApps/Community onboard program<br/>Microservice tools community development program<br/>"
+        },
+        "Discovery_age": {
+          "title": "Discovery Age"
         }
       }
     }

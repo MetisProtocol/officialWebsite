@@ -11,7 +11,10 @@
   > .overview-container {
     width: 100%;
     height: calc(100vh - 4rem);
-    background-color: #0a0a0a;
+    background: url('/images/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     > .group {
       display: flex;
@@ -47,7 +50,7 @@
 
   > .team-container {
     background-color: #141414;
-    padding: 6rem 0;
+    padding: 6.5rem 0;
 
     .team-group {
       display: flex;
@@ -92,13 +95,32 @@
 
     .partner-box {
       display: flex;
-      align-items: center;
+      align-items: flex-end;
       margin-bottom: 4rem;
 
-      > img.avatar {
+      > .avatar {
         height: 16rem;
         width: auto;
         border-radius: 4px;
+
+        > img {
+          height: 100%;
+          width: auto;
+        }
+
+        > img.active-avatar {
+          display: none;
+        }
+
+        &:hover {
+          > img.active-avatar {
+            display: block;
+          }
+
+          > img.inactive-avatar {
+            display: none;
+          }
+        }
       }
 
       > .info {
@@ -107,20 +129,22 @@
 
         > .name {
           font-size: 2rem;
-          margin-bottom: 1rem;
+          margin-bottom: 0.5rem;
         }
 
         > .position {
           font-size: 1.25rem;
-          color: #81e8ff;
-          margin-bottom: 1rem;
+          color: rgba(129,232,255,0.5);
+          margin-bottom: 0.5rem;
+          font-weight: 200;
         }
 
         > .intro {
-          line-height: 2rem;
+          line-height: 2;
           font-size: 1rem;
-          color: #ffffff;
+          color: rgba(204,204,204,1);
           margin-bottom: 1rem;
+          font-weight: 200;
         }
 
         > a > img {
@@ -133,6 +157,10 @@
     .team-group-phone {
       display: flex;
       flex-direction: column;
+
+      .partner-box {
+        align-items: flex-start;
+      }
 
       .avatar {
         margin-right: 2rem;
@@ -150,9 +178,14 @@
 
       .partner-box {
         flex-direction: column;
+        align-items: center;
 
         .avatar {
           margin-bottom: 2rem;
+        }
+
+        .info {
+          align-items: center;
         }
       }
     }
@@ -162,6 +195,10 @@
     width: 100%;
     background-color: #0a0a0a;
     min-height: 100vh;
-    padding-top: 6rem;
+    padding: 6.5rem 0;
+
+    h2 {
+      margin-bottom: 4rem;
+    }
   }
 }

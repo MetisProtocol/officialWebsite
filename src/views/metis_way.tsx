@@ -86,9 +86,9 @@ export default function Protocol() {
       <div className="section-five">
         <Container className="five-container" maxWidth="lg">
           <div className="info-part">
-            <h3 className="title">
+            <h2 className="title">
               {t('protocol_page.section_four.title')}
-            </h3>
+            </h2>
             <p className="description">
               {t('protocol_page.section_four.description')}
             </p>

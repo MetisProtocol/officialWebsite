@@ -11,6 +11,7 @@ interface Partner {
   link: string;
   intro: string;
   avatar: string;
+  inactiveAvatar: string;
   nameClr: string;
 }
 
@@ -25,6 +26,7 @@ export default function Company() {
         name: "Elena Sinelnikova",
         nameClr: "#8591ff",
         avatar: "/images/elena.png",
+        inactiveAvatar: "/images/elena_inactive.png",
         position: t("company_page.team.elena.position"),
         intro: t("company_page.team.elena.intro"),
         link: "https://www.linkedin.com/in/esinelnikova",
@@ -33,6 +35,7 @@ export default function Company() {
         name: "Yuan Su",
         nameClr: "#88ff8f",
         avatar: "/images/yuan.png",
+        inactiveAvatar: "/images/yuan_inactive.png",
         position: t("company_page.team.yuan.position"),
         intro: t("company_page.team.yuan.intro"),
         link: "https://www.linkedin.com/in/yuansu",
@@ -44,6 +47,7 @@ export default function Company() {
         name: "Kevin Liu",
         nameClr: "#81e8ff",
         avatar: "/images/kevin.png",
+        inactiveAvatar: "/images/kevin_inactive.png",
         position: t("company_page.team.kevin.position"),
         intro: t("company_page.team.kevin.intro"),
         link: "https://www.linkedin.com/in/kevinliudac",
@@ -88,7 +92,10 @@ export default function Company() {
                         <img src="/images/linkin.png" alt="" />
                       </a>
                     </div>
-                    <img className="avatar" src={partner.avatar} alt="" />
+                    <div className="avatar">
+                      <img className="active-avatar" src={partner.avatar} alt="" />
+                      <img className="inactive-avatar" src={partner.inactiveAvatar} alt="" />
+                    </div>
                   </div>
                 );
               })}
@@ -97,7 +104,10 @@ export default function Company() {
               {rightPartner.map((partner) => {
                 return (
                   <div key={uuid()} className="partner-box">
-                    <img className="avatar" src={partner.avatar} alt="" />
+                    <div className="avatar">
+                      <img className="active-avatar" src={partner.avatar} alt="" />
+                      <img className="inactive-avatar" src={partner.inactiveAvatar} alt="" />
+                    </div>
                     <div className="info">
                       <div className="name" style={{ color: partner.nameClr }}>
                         {partner.name}
@@ -119,7 +129,10 @@ export default function Company() {
             {leftPartner.map((partner) => {
               return (
                 <div key={uuid()} className="partner-box">
-                  <img className="avatar" src={partner.avatar} alt="" />
+                  <div className="avatar">
+                    <img className="active-avatar" src={partner.avatar} alt="" />
+                    <img className="inactive-avatar" src={partner.inactiveAvatar} alt="" />
+                  </div>
                   <div className="info">
                     <div className="name" style={{ color: partner.nameClr }}>
                       {partner.name}
@@ -138,7 +151,10 @@ export default function Company() {
             {rightPartner.map((partner) => {
               return (
                 <div key={uuid()} className="partner-box">
-                  <img className="avatar" src={partner.avatar} alt="" />
+                  <div className="avatar">
+                    <img className="active-avatar" src={partner.avatar} alt="" />
+                    <img className="inactive-avatar" src={partner.inactiveAvatar} alt="" />
+                  </div>
                   <div className="info">
                     <div className="name" style={{ color: partner.nameClr }}>
                       {partner.name}
@@ -155,10 +171,10 @@ export default function Company() {
             })}
           </div>
 
-          <h2>Think Tank</h2>
+          <h2>Advisor</h2>
 
           <div className="team-group think-tank-group">
-            <div className="left-col">
+            {/* <div className="left-col">
               <div className="partner-box">
                 <img className="avatar" src="/images/ming_guo.png" alt="" />
                 <div className="info">
@@ -170,14 +186,14 @@ export default function Company() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="right-col">
               <div className="partner-box">
                 <img className="avatar" src="/images/advisor_medha_parlikar.jpeg" alt="" />
                 <div className="info">
                   <div className="name">
-                    Advisor Medha Parlikar
+                    Medha Parlikar
                   </div>
                   <div className="position">
                     CTO and Co-Founder of CasperLabs
@@ -189,7 +205,7 @@ export default function Company() {
           </div>
 
           <div className="team-group-phone think-tank-group">
-            <div className="left-col">
+            {/* <div className="left-col">
               <div className="partner-box">
                 <img className="avatar" src="/images/ming_guo.png" alt="" />
                 <div className="info">
@@ -201,14 +217,14 @@ export default function Company() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="right-col">
               <div className="partner-box">
                 <img className="avatar" src="/images/advisor_medha_parlikar.jpeg" alt="" />
                 <div className="info">
                   <div className="name">
-                    Advisor Medha Parlikar
+                    Medha Parlikar
                   </div>
                   <div className="position">
                     CTO and Co-Founder of CasperLabs
