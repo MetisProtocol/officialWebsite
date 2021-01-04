@@ -43,7 +43,7 @@
       "title": "Team",
       "elena": {
         "position": "Co-Founder & CEO",
-        "intro": "Blockchain KOL, Co-Founder of CryptoChicks, the world largest female blockchain community with members spanning over 56 countries."
+        "intro": "Blockchain educator, Co-Founder of CryptoChicks, the world largest female blockchain community with members spanning over 56 countries."
       },
       "yuan": {
         "position": "Co-Founder & CEO",
@@ -51,7 +51,7 @@
       },
       "kevin": {
         "position": "Co-Founder & Product Lead",
-        "intro": "Former global business leader of a tier-1 public blockchain. Researcher and practitioner of the Token Economy, DAO and the governance protocols. A serails startup entrepreneur. "
+        "intro": "Former global business leader of a tier-1 public blockchain. Researcher and practitioner of the Token Economy, DAO and the governance protocols. A serail startup entrepreneur. "
       }
     },
     "roadmap": {
@@ -70,7 +70,8 @@
           "description": "Main net launch with Layer 2 solution<br/>Support DACs to issue their own tokens <br/>DApps/Community onboard program<br/>Microservice tools community development program<br/>"
         },
         "Discovery_age": {
-          "title": "Discovery Age"
+          "title": "Discovery Age",
+          "description": "Enroll more DApps/Community onboard<br/><br/>Integrate open source microservice tools and launch Data Assets Market<br/><br/>Buildup DAC ecosystem"
         }
       }
     }
@@ -88,7 +89,7 @@
       "title": "ComCo Framework on Layer 2"
     },
     "section_four": {
-      "title": "The Social Contract: Reputation Power (RP)",
+      "title": "The Social Contract - Reputation Power (RP)",
       "description": "Decentralized business credentials built on staking and collaborations track record"
     }
   }

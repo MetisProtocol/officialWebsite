@@ -36,27 +36,27 @@ export default function Roadmap() {
     setRoadmapItems([
       {
         title: t('company_page.roadmap.items.stone_age.title'),
-        date: 'Dec 2018 - Oct 2020',
+        date: 'Dec 2018 - Dec 2020',
         icon: '/images/stone_age.svg',
         description: t('company_page.roadmap.items.stone_age.description')
       },
       {
         title: t('company_page.roadmap.items.bronze_age.title'),
-        date: 'Oct 2020 - Dec 2020',
+        date: 'Jan 2020 - Mar 2021',
         icon: '/images/bronze_age.svg',
         description: t('company_page.roadmap.items.bronze_age.description')
       },
       {
         title: t('company_page.roadmap.items.Iron_age.title'),
-        date: 'Jan 2021 - Apr 2021',
+        date: 'Apr 2021 - Jul 2021',
         icon: '/images/iron_age.svg',
         description: t('company_page.roadmap.items.Iron_age.description')
       },
       {
         title: t('company_page.roadmap.items.Discovery_age.title'),
-        date: 'Starting from May 2021',
+        date: 'Starting from Aug 2021',
         icon: '/images/telescope.svg',
-        description: ""
+        description: t('company_page.roadmap.items.Discovery_age.description')
       }
     ]);
   }, [ t ]);
@@ -88,13 +88,13 @@ export default function Roadmap() {
       <span className={`page-prev ${prevDisabled ? 'disabled' : ''}`} onClick={handlePagePrev}>
 
         <svg width="17" height="30" viewBox="0 0 17 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path opacity="1" d="M15 2L2 14.8842L15 28" stroke="#81E8FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path opacity="1" d="M15 2L2 14.8842L15 28" stroke="#81E8FF" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </span>
 
       <span className={`page-next ${nextDisabled ? 'disabled' : ''}`} onClick={handlePageNext}>
         <svg width="17" height="30" viewBox="0 0 17 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path opacity="1" d="M2 2L15 14.8842L2 28" stroke="#81E8FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path opacity="1" d="M2 2L15 14.8842L2 28" stroke="#81E8FF" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </span>
 

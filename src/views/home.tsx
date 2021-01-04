@@ -50,21 +50,21 @@ export default function Home() {
           <div className="step-list">
             <div className="step">
               <h4 className="step-title">
-                1.Create
+                1. Create
               </h4>
               <img style={{width: 330}} className="step-img" src="/images/home_step1.svg" alt=""/>
             </div>
 
             <div className="step">
               <h4 className="step-title">
-                2.Stake to Activate
+                2. Stake to Activate
               </h4>
               <img style={{width: 280}} className="step-img" src="/images/home_step2.svg" alt=""/>
             </div>
 
             <div className="step">
               <h4 className="step-title">
-                3.And All Set!
+                3. And All Set!
               </h4>
               <img style={{width: 634}} className="step-img" src="/images/home_step3.svg" alt=""/>
             </div>
@@ -155,7 +155,7 @@ export default function Home() {
               <img src="/images/price_down.svg" alt=""/>
 
               <span className="name" style={{color: '#8591FF'}}>
-                High Scalability
+                Low Operation Cost
               </span>
             </div>
 
@@ -163,7 +163,7 @@ export default function Home() {
               <img src="/images/fi_shield.svg" alt=""/>
 
               <span className="name" style={{color: '#88FFBF'}}>
-                Low Operation Cost
+                High Scalability
               </span>
             </div>
           </div>
