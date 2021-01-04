@@ -42,7 +42,7 @@ export default function Roadmap() {
       },
       {
         title: t('company_page.roadmap.items.bronze_age.title'),
-        date: 'Jan 2020 - Mar 2021',
+        date: 'Jan 2021 - Mar 2021',
         icon: '/images/bronze_age.svg',
         description: t('company_page.roadmap.items.bronze_age.description')
       },
