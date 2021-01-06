@@ -15,7 +15,7 @@ export default function Protocol() {
           </h2>
 
           <p className="description">
-            Metis is building a decentralized framework on top of the Layer1 network to erases the difficulty for you to use blockchain
+            Metis is building a decentralized framework on top of the Layer1 network to erase the difficulty for you to use blockchain
           </p>
 
           <img className="preview-img" src="/images/metis_way_sys_frame.svg" alt="" />
