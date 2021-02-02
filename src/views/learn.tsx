@@ -28,6 +28,47 @@ export default function Learn() {
   useEffect(() => {
     setItems([
       {
+        previewImg: '/images/article_04.png',
+        previewActiveImg: '/images/article_04_active.png',
+        title: t('learn_page.article04_title'),
+        date: new Date('2021-01-20'),
+        type: ItemType.ARTICLE,
+        link: 'https://metisdao.medium.com/accelerating-dapps-and-decentralized-economies-with-metis-and-casperlabs-28cbf0e5e8e7'
+      },
+      {
+        previewImg: '/images/article_05.png',
+        previewActiveImg: '/images/article_05_active.png',
+        title: t('learn_page.article05_title'),
+        date: new Date('2021-01-07'),
+        type: ItemType.ARTICLE,
+        link: 'https://hackernoon.com/what-does-ethereum-30-look-like-yr1134eu'
+      },
+      {
+        previewImg: '/images/article_06.png',
+        previewActiveImg: '/images/article_06_active.png',
+        title: t('learn_page.article06_title'),
+        date: new Date('2020-12-18'),
+        type: ItemType.ARTICLE,
+        link: 'https://metisdao.medium.com/user-guide-on-how-to-create-and-manage-a-dac-on-metis-518a056ff025'
+      },
+      {
+        previewImg: '/images/article_07.png',
+        previewActiveImg: '/images/article_07_active.png',
+        title: t('learn_page.article07_title'),
+        date: new Date('2020-12-11'),
+        type: ItemType.ARTICLE,
+        link: 'https://hackernoon.com/everyone-should-have-a-decentralized-company-on-the-blockchain-8zt349e'
+      },
+      
+      {
+        previewImg: '/images/article_08.png',
+        previewActiveImg: '/images/article_08_active.png',
+        title: t('learn_page.article08_title'),
+        date: new Date('2020-10-28'),
+        type: ItemType.ARTICLE,
+        link: 'https://metisdao.medium.com/the-road-to-defi-2-0-hacker-noon-80c9302430d3'
+      },
+      {
         previewImg: '/images/article_01.png',
         previewActiveImg: '/images/article_01_active.png',
         title: t('learn_page.article01_title'),

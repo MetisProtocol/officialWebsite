@@ -42,16 +42,16 @@ export default function Roadmap() {
       },
       {
         title: t('company_page.roadmap.items.bronze_age.title'),
-        date: 'Jan 2021 - Mar 2021',
+        date: 'Jan 2021 - Dev 2021',
         icon: '/images/bronze_age.svg',
         description: t('company_page.roadmap.items.bronze_age.description')
       },
-      {
-        title: t('company_page.roadmap.items.Iron_age.title'),
-        date: 'Apr 2021 - Jul 2021',
-        icon: '/images/iron_age.svg',
-        description: t('company_page.roadmap.items.Iron_age.description')
-      },
+      // {
+      //   title: t('company_page.roadmap.items.Iron_age.title'),
+      //   date: 'Apr 2021 - Jul 2021',
+      //   icon: '/images/iron_age.svg',
+      //   description: t('company_page.roadmap.items.Iron_age.description')
+      // },
       {
         title: t('company_page.roadmap.items.Discovery_age.title'),
         date: 'Starting from Aug 2021',

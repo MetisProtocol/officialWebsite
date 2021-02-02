@@ -33,6 +33,11 @@
     "article01_title": "Brief Answers to the Big Questions on MetisDAO",
     "article02_title": "Turn an Internet Community into a DAO in 3 Steps",
     "article03_title": "A Technical Exploration of Optimistic Rollups in the context of Collaborat...",
+    "article04_title": "Accelerating Dapps and Decentralized Economies with Metis and CasperLabs",
+    "article05_title": "What Does Ethereum 3.0 Look Like?",
+    "article06_title": "User Guide on How to Create and Manage a DAC on Metis",
+    "article07_title": "Everyone Should Have A Decentralized Company On The Blockchain",
+    "article08_title": "The Road to Defi 2.0 | Hacker Noon",
     "video01_title": "Metis Protocol POC Demo",
     "video02_title": "Optimistic Rollup Meetup. Part 1",
     "video03_title": "DAO, Governance & the Future of Defi"
@@ -63,7 +68,7 @@
         },
         "bronze_age": {
           "title": "Bronze Age",
-          "description": "Project cold launch<br/><br/>Public test net launch<br/><br/>Founding members join and use Metis Protocol to stake, govern and manage for their projects manually to mint M Token incentives<br/><br/>API connection with Defi projects and joint promotion with Defi communities<br/><br/>Launch POC version using Layer 2 of OR"
+          "description": "Project cold launch<br/><br/>Public test net launch<br/><br/>Founding members join to create Genesis DAC on Metis, mint NFT as the proof-of-ownership<br/><br/>DApps/Community onboard program<br/><br/>API connection with Defi projects and joint promotion with Defi communities<br/><br/>Support DACs to issue their own tokens and swap on Layer2<br/><br/>Main net launch with Layer 2 solution"
         },
         "Iron_age": {
           "title": "Iron Age",
@@ -71,7 +76,7 @@
         },
         "Discovery_age": {
           "title": "Discovery Age",
-          "description": "Enroll more DApps/Community onboard<br/><br/>Integrate open source microservice tools and launch Data Assets Market<br/><br/>Buildup DAC ecosystem"
+          "description": "Enroll more Projects/Communities onboard<br/><br/>Launch Microservice Tools Developer Community and Data Assets Market"
         }
       }
     }

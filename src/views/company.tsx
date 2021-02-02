@@ -51,7 +51,7 @@ export default function Company() {
         position: t("company_page.team.kevin.position"),
         intro: t("company_page.team.kevin.intro"),
         link: "https://www.linkedin.com/in/kevinliudac",
-      }
+      },
     ]);
   }, [t]);
 
@@ -62,13 +62,12 @@ export default function Company() {
           <img src="/images/logo_svg.svg" alt="" />
           <div className="description">
             {/* {t("company_page.description")} */}
-
             <span className="text-strong">In Greek</span> mythology,
-            <br/>
+            <br />
             <span className="text-strong">Metis was the Titan</span> of
-            <br/>
-            prudence, good council, planning, 
-            <br/>
+            <br />
+            prudence, good council, planning,
+            <br />
             advice, deep thought, craftiness and wisdom.
           </div>
         </Container>
@@ -93,8 +92,16 @@ export default function Company() {
                       </a>
                     </div>
                     <div className="avatar">
-                      <img className="active-avatar" src={partner.avatar} alt="" />
-                      <img className="inactive-avatar" src={partner.inactiveAvatar} alt="" />
+                      <img
+                        className="active-avatar"
+                        src={partner.avatar}
+                        alt=""
+                      />
+                      <img
+                        className="inactive-avatar"
+                        src={partner.inactiveAvatar}
+                        alt=""
+                      />
                     </div>
                   </div>
                 );
@@ -105,8 +112,16 @@ export default function Company() {
                 return (
                   <div key={uuid()} className="partner-box">
                     <div className="avatar">
-                      <img className="active-avatar" src={partner.avatar} alt="" />
-                      <img className="inactive-avatar" src={partner.inactiveAvatar} alt="" />
+                      <img
+                        className="active-avatar"
+                        src={partner.avatar}
+                        alt=""
+                      />
+                      <img
+                        className="inactive-avatar"
+                        src={partner.inactiveAvatar}
+                        alt=""
+                      />
                     </div>
                     <div className="info">
                       <div className="name" style={{ color: partner.nameClr }}>
@@ -130,8 +145,16 @@ export default function Company() {
               return (
                 <div key={uuid()} className="partner-box">
                   <div className="avatar">
-                    <img className="active-avatar" src={partner.avatar} alt="" />
-                    <img className="inactive-avatar" src={partner.inactiveAvatar} alt="" />
+                    <img
+                      className="active-avatar"
+                      src={partner.avatar}
+                      alt=""
+                    />
+                    <img
+                      className="inactive-avatar"
+                      src={partner.inactiveAvatar}
+                      alt=""
+                    />
                   </div>
                   <div className="info">
                     <div className="name" style={{ color: partner.nameClr }}>
@@ -152,8 +175,16 @@ export default function Company() {
               return (
                 <div key={uuid()} className="partner-box">
                   <div className="avatar">
-                    <img className="active-avatar" src={partner.avatar} alt="" />
-                    <img className="inactive-avatar" src={partner.inactiveAvatar} alt="" />
+                    <img
+                      className="active-avatar"
+                      src={partner.avatar}
+                      alt=""
+                    />
+                    <img
+                      className="inactive-avatar"
+                      src={partner.inactiveAvatar}
+                      alt=""
+                    />
                   </div>
                   <div className="info">
                     <div className="name" style={{ color: partner.nameClr }}>
@@ -174,65 +205,67 @@ export default function Company() {
           <h2>Advisor</h2>
 
           <div className="team-group think-tank-group">
-            {/* <div className="left-col">
+            <div className="left-col">
               <div className="partner-box">
-                <img className="avatar" src="/images/ming_guo.png" alt="" />
+                <img
+                  className="avatar"
+                  src="/images/Ralf_P_Gerteis.jpeg"
+                  alt=""
+                />
                 <div className="info">
-                  <div className="name">
-                    Ming Guo
-                  </div>
-                  <div className="position">
-                    Chief Scientist
-                  </div>
+                  <div className="name">Ralf P. Gerteis</div>
+                  <div className="position">Entrepreneur and Investor</div>
                 </div>
               </div>
-            </div> */}
+            </div>
 
             <div className="right-col">
               <div className="partner-box">
-                <img className="avatar" src="/images/advisor_medha_parlikar.jpeg" alt="" />
+                <img
+                  className="avatar"
+                  src="/images/advisor_medha_parlikar.jpeg"
+                  alt=""
+                />
                 <div className="info">
-                  <div className="name">
-                    Medha Parlikar
-                  </div>
+                  <div className="name">Medha Parlikar</div>
                   <div className="position">
                     CTO and Co-Founder of CasperLabs
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
 
           <div className="team-group-phone think-tank-group">
-            {/* <div className="left-col">
+            <div className="left-col">
               <div className="partner-box">
-                <img className="avatar" src="/images/ming_guo.png" alt="" />
+                <img
+                  className="avatar"
+                  src="/images/Ralf_P_Gerteis.jpeg"
+                  alt=""
+                />
                 <div className="info">
-                  <div className="name">
-                    Ming Guo
-                  </div>
-                  <div className="position">
-                    Chief Scientist
-                  </div>
+                  <div className="name">Ralf P. Gerteis</div>
+                  <div className="position">Entrepreneur and Investor</div>
                 </div>
               </div>
-            </div> */}
+            </div>
 
             <div className="right-col">
               <div className="partner-box">
-                <img className="avatar" src="/images/advisor_medha_parlikar.jpeg" alt="" />
+                <img
+                  className="avatar"
+                  src="/images/advisor_medha_parlikar.jpeg"
+                  alt=""
+                />
                 <div className="info">
-                  <div className="name">
-                    Medha Parlikar
-                  </div>
+                  <div className="name">Medha Parlikar</div>
                   <div className="position">
                     CTO and Co-Founder of CasperLabs
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
         </Container>
       </div>
