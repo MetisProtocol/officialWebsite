@@ -24,7 +24,7 @@ const partnerLogos: PartnerLogo[] = [
     link: '/images/partners/ac_capital.png',
   },
   {
-    link: '/images/partners/bp.png',
+    link: '/images/partners/bpc.png',
   },
   {
     link: '/images/partners/chain_capital.png',
