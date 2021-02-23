@@ -79,6 +79,9 @@
           "description": "Enroll more Projects/Communities onboard<br/><br/>Launch Microservice Tools Developer Community and Data Assets Market"
         }
       }
+    },
+    "partner": {
+      "title": "Partners & Investors"
     }
   },
   "protocol_page": {

@@ -201,4 +201,31 @@
       margin-bottom: 4rem;
     }
   }
+
+  > .partner-container {
+    width: 100%;
+    background-color: transparent;
+    // min-height: 40rem;
+    padding: 6.5rem 0;
+    background-image: url("/images/learn_bg.png");
+
+    .title {
+      color: #000000;
+      margin-bottom: 4rem;
+    }
+
+    .partner-list {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      > img {
+        height: 4rem;
+        width: auto;
+        margin: 2rem;
+      }
+    }
+  }
 }

@@ -15,10 +15,52 @@ interface Partner {
   nameClr: string;
 }
 
+interface PartnerLogo {
+  link: string;
+}
+
+const partnerLogos: PartnerLogo[] = [
+  {
+    link: '/images/partners/ac_capital.png',
+  },
+  {
+    link: '/images/partners/bp.png',
+  },
+  {
+    link: '/images/partners/chain_capital.png',
+  },
+  {
+    link: '/images/partners/crasolum.png',
+  },
+  {
+    link: '/images/partners/dfg.png',
+  },
+  {
+    link: '/images/partners/hotbit.png',
+  },
+  {
+    link: '/images/partners/kernel_venture.jpeg',
+  },
+  {
+    link: '/images/partners/sssnodes.png',
+  },
+  {
+    link: '/images/partners/water.jpeg',
+  },
+];
+
+partnerLogos.sort((prev: PartnerLogo, next: PartnerLogo) => {
+  let a: string = prev.link.toLowerCase();
+  let b: string = next.link.toLowerCase();
+
+  return a > b ? 1 : -1;
+});
+
 export default function Company() {
   const { t } = useTranslation();
   const [leftPartner, setLeftPartner] = useState<Partner[]>([]);
   const [rightPartner, setRightPartner] = useState<Partner[]>([]);
+  const [partners, setPartners] = useState<PartnerLogo[]>([]);
 
   useEffect(() => {
     setLeftPartner([
@@ -53,7 +95,11 @@ export default function Company() {
         link: "https://www.linkedin.com/in/kevinliudac",
       },
     ]);
+
+    setPartners(partnerLogos);
   }, [t]);
+
+
 
   return (
     <div className="metis_fe--company-container">
@@ -274,6 +320,21 @@ export default function Company() {
         <Container maxWidth="lg">
           <h2>{t("company_page.roadmap.title")}</h2>
           <Roadmap />
+        </Container>
+      </div>
+
+      <div className="partner-container">
+        <Container maxWidth="lg">
+          <h2 className="title">{t('company_page.partner.title')}</h2>
+          <div className="partner-list">
+            {
+              partners.map((item) => {
+                return (
+                  <img key={item.link} src={item.link} alt="" />
+                )
+              })
+            }
+          </div>
         </Container>
       </div>
     </div>
